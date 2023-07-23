@@ -1,0 +1,136 @@
+.info-bar {
+    display: block;
+    border-left: 1.25px solid white;
+    height: 30px;
+}
+
+#about-us-line {
+    display: inline-block;
+    border-bottom: 3px solid rgb(210, 23, 23);
+    height: 5px;
+    width: 50px;
+    margin-bottom: 0.25rem
+}
+
+.about-us-line-2 {
+    display: inline-block;
+    border-bottom: 3px solid rgb(210, 23, 23);
+    height: 5px;
+    width: 20px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem
+}
+
+@tailwind base;
+@tailwind components;
+
+
+.btn {
+    background-color: black;
+    height: 3rem;
+    width: 5rem;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px
+}
+
+.about-text {
+    text-align: justify;
+
+}
+
+.Home-text {
+    text-align: justify;
+
+
+}
+
+.logo-underline {
+    border-bottom: 1px solid rgb(99, 60, 60);
+    height: 5px;
+    width: 20rem;
+    margin-bottom: 0.25rem
+}
+
+
+
+
+.contact-line{
+
+  border-bottom: 1px solid green;
+  height: 5px;
+  width: 25rem;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+
+
+
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+
+  color: black;
+  /* padding: 19px; */
+  margin-top: 1.25rem;
+  font-size: 19px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@tailwind utilities;
